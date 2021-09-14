@@ -1,0 +1,14 @@
+#Train/val/test sets as: 
+#1) dir: path/to/imgs
+#2) file: path/to/imgs.txt
+
+path: /content/mydataset
+train: /content/mydataset/images/train
+val: /content/mydataset/images/valid
+test: /content/mydataset/images/test
+
+#classes config:
+nc: 2
+#class names
+names: ['mask', 'no-mask']
+
